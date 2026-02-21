@@ -43,11 +43,7 @@
   ansible.builtin.template:
       src: nginx.conf
       dest: /etc/nginx/nginx.conf
+  notify: restart and enable nginx 
 
-- name: restart and enable nginx
-  ansible.builtin.service:
-      name : nginx
-      state: restarted
-      enabled: yes    
-       
+
       
