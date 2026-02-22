@@ -16,4 +16,5 @@ compose:
 
 keyed_groups:  
 - prefix: ""
-  key: frontend # just like manam manual gah -e component=frontend istam kada alane idhi kuda
+  #key: frontend # just like manam manual gah -e component=frontend istam kada alane idhi kuda
+  key: tags.Name
