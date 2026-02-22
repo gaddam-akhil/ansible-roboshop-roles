@@ -15,6 +15,6 @@ compose:
   ansible_host: private_ip_addres
 
 keyed_groups:  
-- prefix: ""
+- separator: ''
   #key: frontend # just like manam manual gah -e component=frontend istam kada alane idhi kuda
-  key: tags.Name
+  key: tags.component
