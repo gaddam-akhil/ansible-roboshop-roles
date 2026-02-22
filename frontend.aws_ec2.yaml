@@ -17,4 +17,4 @@ compose:
 keyed_groups:  
 - separator: ''
   #key: frontend # just like manam manual gah -e component=frontend istam kada alane idhi kuda
-  key: tags.component
+  key: tags.Component
