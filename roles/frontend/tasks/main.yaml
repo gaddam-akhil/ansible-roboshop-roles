@@ -40,6 +40,7 @@
       path: /etc/nginx/nginx.conf
 
 - name: copy nginx.conf file  
+  throttle: 2
   ansible.builtin.template:
       src: nginx.conf
       dest: /etc/nginx/nginx.conf
