@@ -10,6 +10,10 @@ filters:
   instance-state-name : running   
   tag:Name: frontend-dev
 
+compose:
+  # This sets the ansible_host variable to connect with the private IP address without changing the hostname.
+  ansible_host: private_ip_addres
+
 keyed_groups:  
 - prefix: ""
   key: frontend # just like manam manual gah -e component=frontend istam kada alane idhi kuda
