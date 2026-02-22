@@ -9,3 +9,7 @@ hostnames:
 filters:
   instance-state-name : running   
   tag:Name: frontend-dev
+
+keyed_groups:  
+- prefix: ""
+  key: frontend # just like manam manual gah -e component=frontend istam kada alane idhi kuda
